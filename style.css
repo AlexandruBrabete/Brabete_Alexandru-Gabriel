@@ -1,0 +1,116 @@
+body {
+     /* modficări stiluri ale background-ului, titlurilor, textelor generale, egalizare demensiuni */
+     background-color: darkblue;
+     h1, h2, h3, h4, h5, h6 {
+            font-size: 20px;
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Font Comic Sans MS */
+            color: white; /* Culoare albă */
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 20px; /* Spațiu de 20 de pixeli după h2 */
+        }
+
+        h3, h4, h5, h6 {
+            text-align: left;
+        }
+
+     /* modificare stiluri tabele în interior (font, culoare backgorund, culoare scris, margini ale ramelor, poziție text, dimensiuni) */
+     table {
+       width: 50%;
+       border-collapse: collapse;
+       margin: 20px; /* Margini de 20px */
+       }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+      font-family: Arial, sans-serif; /* Font Arial */
+      }
+
+    th {
+      background-color: white;
+      color: white;
+      border: 2px solid black;
+      border-radius: 10px; /* Rotunjire margini */
+      }
+
+    td {
+      background-color: white;
+      color: darkblue;
+      border: 2px solid black;
+      border-radius: 10px; /* Rotunjire margini */
+      }
+
+    /* Modificare stil imaginii cu graficul cu structura rețelei (ramă, dimensiuni, culoare opacitate, aspect ratio) */ 
+    .single-image {
+      max-width: 100%;
+      width: 50%;
+      aspect-ratio: 1,5/ 1;
+      border: 5px solid black;
+      border-radius: 15px;
+      opacity: 0.95; /*opacitate de 95% */
+      }
+    
+    /* Modificare stil listă (culoare, dimesniuni, stil, rame, mod de așezare) */
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 20px; /* Margini de 20px */
+      }
+
+    li {
+      background-color: white;
+      margin-bottom: 10px;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      color: #001f3f; /* Albastru inchis în hexazecimal */
+      }
+
+.image-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .image-container img {
+      margin: 5px; /* Creează spațiu între imagini */
+      max-width: 100%; /* Asigură că imaginile nu depășesc lățimea containerului */
+      aspect-ratio: 2 / 1; /* Setează raportul aspect ratio la 2:1 */
+      border: 5px solid black; /* Adaugă o ramă cu contur negru */
+      border-radius: 15px; /* Rotunjește marginile ramei */
+    }
+
+    .outside-image {
+      max-width: 100%; /* Asigură că imaginea nu depășește lățimea containerului */
+      border: 10px solid black; /* Adaugă o ramă cu contur negru și grosime 10px */
+      border-radius: 20px; /* Rotunjește marginile ramei */
+    }
+
+
+    /* Afișaj potrivit pentru SlideShow */
+    .slideshow-section {
+      position: relative;
+      overflow: hidden;
+      max-width: 100%;
+      }
+
+    .image-container {
+     display: flex;
+     transition: transform 3s ease-in-out;
+     }
+
+    .image-container img {
+     width: 50%;
+     height: auto;
+     display: block;
+     }
+
+    .hidden {
+     display: none;
+     }
+ }

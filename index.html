@@ -1,0 +1,114 @@
+<html>
+
+<head>
+    <!-- Adaptarea la caracterele din limba română -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Inserare fișiere css și js -->
+    <link rel="stylesheet" href = "style.css">
+    <script src="script.js" defer></script>
+
+    <!-- Adăugare titlu site -->
+    <title>Evaluare UNIT2</title>
+</head>
+
+<body>
+    <h1>Brabete Alexandru-Gabriel</h1>
+    <h2>alexandrubrabete@yahoo.com</h2>
+    
+    <!-- Tabel Componente și caracterristici, cu liste pentru secțiunea Parametrii -->
+    <h3>Componente si caracteristici:</h3>
+    <table>
+        <tr>
+            <td>Denumire</td>
+            <td>Producător</td>
+            <td>Parametri</td>
+        </tr>
+
+        <tr>
+            <td>Procesor</td>
+            <td>Intel</td>
+            <td>
+                <ul>
+                    <li>Serie procesor: Intel Core i7-8565U</li>
+                    <li>Număr nuclee: 4</li>
+                    <li>Frecvența nominală: 1.8 GHz</li>
+                    <li>Frecvența Turbo Boost: 4.6 GHz</li>
+                    <li>Cache: 8192 KB</li>
+                    <li>Tehnologie procesor: 14 nm</li>
+                    <li>Procesor grafic integrat: Intel UHD Graphics 620</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Placa video (dedicată)</td>
+            <td>Nvidia</td>
+            <td>
+                <ul>
+                    <li>Chipset video: nVidia GeForce MX</li>
+                    <li>Model placă video: MX230</li>
+                    <li>Capacitate memorie video: 2048 MB</li>
+                    <li>Tip memorie placă video: GDDR5</li>
+                    <li>Tehnologii placă video DirectX 12, GeForce Experience</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Memorie RAM</td>
+            <td>Asus</td>
+            <td>
+                <ul>
+                    <li>Capacitate memorie: 8 GB</li>
+                    <li>Tip memorie: DDR4</li>
+                    <li>Frecvență: 2400 MHz</li>
+                    <li>Memorie integrată: 4096 MB</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Memorie ROM</td>
+            <td>Kingstone</td>
+            <td> 
+                <ul>
+                    <li>Tip stocare: SSD</li>
+                    <li>Capacitate SSD: 256 GB</li>
+                    <li>Interfață SSD: SATA 3</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+ 
+    <!-- Grafic cu structura rețelei proprii -->
+    <h4>Structura rețelei:</h4>
+    <img src="grafic.png" class="single-image">
+ 
+    <!-- Listă cu multiple caracteristici ale rețelei proprii -->
+    <h5>Caracteristici conexiune rețea:</h5>
+
+    <ul>
+         <li id="downloadSpeed">Viteză download: 586,60Mbps (conform <span id="speedtestLink">speedtest.net</span>)</li>
+         <li>Viteză upload: 549.80Mbps</li>
+         <li>Tip de conexiune: fără fir (wi-fi)</li>
+         <li>Echipament de rețea: Router TP-LINK ARCHER C64 – AC1200</li>
+    </ul>
+
+   <!-- Două containere pentru monitorizarea de resurse (SlideShow) și monitorizarea de resurse (Imagini) -->
+    <div id="monitorizareResurse" class="slideshow-section" ondblclick="startSlideShow()">
+    <h6 id="linkTitle">Monitorizare resurse:</h6>
+      <div class="image-container">
+         <img src="captura1.png" alt="captura1" class="visible">
+         <img src="captura2.png" alt="captura2" class="visible">
+         <img src="captura3.png" alt="captura3">
+         <img src="captura4.png" alt="captura4">
+         <img src="captura5.png" alt="captura5">
+         <img src="captura6.png" alt="captura6">
+         <img src="captura7.png" alt="captura7">
+         <img src="captura8.png" alt="captura8">
+      </div>
+    </div>
+
+</body>
